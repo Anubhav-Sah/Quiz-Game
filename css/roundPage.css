@@ -1,0 +1,51 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+     background-color: #f9f9f9;
+    justify-content: center;
+}
+
+#categoriesList{
+    width:15%;
+    height: 5%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#categoriesList:active{
+    border: 4px solid black;
+}
+
+#startRound {
+    width: 10%;
+    height: 4%;
+    background-color: beige;
+    cursor: grab;
+}
+
+#startRound:hover{
+    background-color: rgb(250, 250, 217);
+    color: rgb(86, 86, 85);
+    border : 3px solid black;
+}
+
+option{
+    width:15%;
+    height: 5%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+p{
+    cursor: default;
+}
+
+#roundHeading{
+    cursor : default;
+}
