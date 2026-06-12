@@ -41,7 +41,7 @@ let random = (arr) => {
 
 // option[0].disabled =true;
 let showQuestion = (arr, opt,playerDetails,variable) => {
-    console.log(arr);
+    // console.log(arr);
     option.forEach(element => {
         element.style.pointerEvents = 'auto';
         element.style.cursor = 'pointer';
@@ -71,7 +71,7 @@ let showQuestion = (arr, opt,playerDetails,variable) => {
                 playerDetails.score += points[arr.difficulty];
                 // console.log(playerDetails.score);
                 showScore();
-                console.log(`${variable},${JSON.stringify(playerDetails)}`)
+                // console.log(`${variable},${JSON.stringify(playerDetails)}`)
                 
                 // console.log("QUestion is correct")
                 
